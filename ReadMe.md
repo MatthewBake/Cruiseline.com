@@ -1,8 +1,8 @@
-*Cruiseline.com*
+**Cruiseline.com**
 
 A Website that allow cruisers to review cruises, cruiselines, ships, excursions and reviews, and find recommendations for cruises using the Cruise Genius
 
-*A User should be able to do the following:*
+**A User should be able to do the following:**
 * Create an account
 * Log into the account
 * Search for a cruise by:
