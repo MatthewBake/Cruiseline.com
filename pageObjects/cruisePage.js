@@ -1,0 +1,43 @@
+module.exports = {
+    url: "https://cruiseline.com/",
+
+    elements: {
+    map: 'a[href="/site-map"]',
+    genius: 'a[href="/cruise/genius"]',
+    location: 'input[class="form-control location ui-autocomplete-input"]',
+    nextBtn1: {selector: '//*[@id="cruisePlannerForm"]/div[1]/div/span/button', locateStrategy: 'xpath'},
+    nextBtn2: {selector: '//*[@id="cruisePlannerForm"]/div[2]/div/span/button', locateStrategy: 'xpath'},
+    nextBtn3: {selector: '//*[@id="cruisePlannerForm"]/div[3]/div/span/button', locateStrategy: 'xpath'},
+    nextBtn4: {selector: '//*[@id="cruisePlannerForm"]/div[4]/div/span/button[2]', locateStrategy: 'xpath'},
+    nextBtn5: {selector: '//*[@id="cruisePlannerForm"]/div[5]/div/span/button[2]', locateStrategy: 'xpath'},
+    prevBtn: 'button[class="btn btn-outline-primary mb-2 prev"]',
+    Adventure: 'div[class="sprite planner-selection-icon-adventure"]',
+    Beach: 'div[class="sprite planner-selection-icon-beaches"]',
+    Culture: 'div[class="sprite planner-selection-icon-culture"]',
+    Nature: 'div[class="sprite planner-selection-icon-nature"]',
+    Eating: 'div[class="sprite planner-selection-icon-eating"]',
+    Shopping: 'div[class="sprite planner-selection-icon-shopping"]',
+    Ent: 'div[class="sprite planner-selection-icon-entertainment"]',
+    Onboard: 'div[class="sprite planner-selection-icon-onboard"]',
+    Dining: 'div[class="sprite planner-selection-icon-dining"]',
+    Service: 'div[class="sprite planner-selection-icon-service"]',
+    Children: 'div[class="sprite planner-selection-icon-children"]',
+    Cabin: 'div[class="sprite planner-selection-icon-cabin"]',
+    Short: {selector: '//*[@id="cruisePlannerForm"]/div[4]/div/div/span[1]/button', locateStrategy: 'xpath'},
+    Medium: {selector: '//*[@id="cruisePlannerForm"]/div[4]/div/div/span[2]/button', locateStrategy: 'xpath'},
+    Long: {selector:'//*[@id="cruisePlannerForm"]/div/[4]/div/div/span[3]/button', locateStrategy: 'xpath'},
+    Piggy: 'div[class="sprite planner-selection-icon-piggy-bank"]',
+    Coins: 'div[class="sprite planner-selection-icon-coins"]',
+    Cash: 'div[class="sprite planner-selection-icon-cash"]',
+    Bag: 'div[class="sprite planner-selection-icon-money-bag]',
+    Vault: 'div[class="sprite planner-selection-icon-vault"]',
+    anyDate: {selector: '//*[@id="cruisePlannerForm"]/div[6]/div/div[2]/button', locateStrategy: 'xpath'},
+    View: {selector: '//*[@id="cruisePlannerForm"]/div[6]/div/button[2]', locateStrategy: 'xpath'}, 
+    Results: {selector: '//*[@id="cruisePlannerForm"]/div[7]/h2', locateStrategy: 'xpath'},
+    Search: '#cruiseline-search',
+    SearchResults: 'p[class="text-muted"]',
+    Logo: 'a[class="sprite nav-cl-logo text-hide"]',
+    
+    }
+
+}

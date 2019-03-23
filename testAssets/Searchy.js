@@ -1,0 +1,1 @@
+module.exports = ['food','royal carribean','bliss','suite','disney']
